@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme">
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ButTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/MyActionBar</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+</resources>

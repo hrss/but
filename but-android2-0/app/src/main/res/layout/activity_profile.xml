@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/ButTheme"
+    tools:context="com.but_app.but.Activity.ProfileActivity">
+
+
+    <fragment android:name="com.but_app.but.Fragment.ProfileFragment"
+        android:id="@+id/profile_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_profile" />
+
+    
+</RelativeLayout>

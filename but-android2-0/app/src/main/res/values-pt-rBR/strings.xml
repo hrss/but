@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="create_review">Review</string>
+    <string name="add_quotes">Adicionar/Tirar</string>
+    <string name="but">Mas</string>
+    <string name="name">Nome</string>
+    <string name="facebook_login">Logar com Facebook</string>
+    <string name="title_activity_splash">But</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_login">Login</string>
+    <string name="facebook_share">Compartilhar no Facebook</string>
+    <string name="title_activity_first_launch">But</string>
+    <string name="title_activity_main">but</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_friends_list">Amigos</string>
+    <string name="title_activity_quotes">Quotes</string>
+    <string name="title_activity_review_edit">Fazer Review</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="action_send">ENVIAR</string>
+    <string name="do_review">Nova Review</string>
+    <string name="but_name">but</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="title_activity_public_reviews">Reviews Públicas</string>
+    <string name="title_activity_profile_edit">Editar Perfil</string>
+    <string name="add_description">Clique aqui para adicionar uma descrição</string>
+    <string name="description_title">Descrição</string>
+    <string name="new_descrption">Adicione uma nova descrição</string>
+    <string name="send_both_quotes">Envie pelo meno uma quote boa e uma ruim.</string>
+    <string name="send_review_dialog">Enviar review?</string>
+    <string name="new_review">Nova Review</string>
+    <string name="see_reviews">Ver Reviews</string>
+    <string name="send">ENVIAR</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="developed_by">Desenvolvido por:</string>
+    <string name="action_about">Sobre</string>
+    <string name="review_sent">Review enviada.</string>
+    <string name="no_reviews">Você não tem nenhuma review ainda. Faça uma review pra alguém :)</string>
+    <string name="no_top_quotes">Você ainda não tem reviews.</string>
+    <string name="art">Arte de:</string>
+    <string name="action_app_invites">Convidar amigos</string>
+
+</resources>

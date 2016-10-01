@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:src="@drawable/profpic"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:id="@+id/user_profpic" />-->
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/view"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_name"
+                android:text="Name:"
+                android:textSize="20sp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp" />
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="shareOnFacebook"-->
+                <!--android:alpha="0.6"-->
+                <!--android:id="@+id/share"-->
+                <!--android:src="@drawable/ic_share_black_24dp"-->
+                <!--android:layout_above="@+id/good_quote"-->
+                <!--android:layout_alignRight="@+id/textView"-->
+                <!--android:layout_alignEnd="@+id/textView" />-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/good_quote_wrap"
+                android:layout_below="@+id/card_name"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_navigate_before_black_18dp"
+                android:id="@+id/good_previous_item"
+                android:onClick="showPreviousItem"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextSwitcher
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/good_quote"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_navigate_next_black_18dp"
+                android:id="@+id/good_next_item"
+                android:layout_gravity="end"
+                android:onClick="showNextItem"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/but_text"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_navigate_before_black_18dp"
+                    android:id="@+id/bad_previous_item"
+                    android:onClick="showPreviousItem"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextSwitcher
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/bad_quote"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="false"
+                     />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_navigate_next_black_18dp"
+                    android:id="@+id/bad_next_item"
+                    android:layout_gravity="end"
+                    android:onClick="showNextItem"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/but_text"
+                android:gravity="center_horizontal"
+                android:text="@string/but"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/good_quote_wrap"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/share_review"
+                android:src="@drawable/ic_share_black_24dp"
+                android:onClick="shareOnFacebook"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <!--<View-->
+            <!--android:layout_width="2dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:background="#333333"-->
+            <!--android:layout_marginLeft="120dp"-->
+            <!--android:alpha="0.2"-->
+            <!--android:id="@+id/view"-->
+            <!--android:layout_centerVertical="true" />-->
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

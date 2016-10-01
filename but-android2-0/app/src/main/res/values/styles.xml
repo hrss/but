@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+    <style name="ButThemeTransparent" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle"   tools:ignore="NewApi">@style/MyActionBarTransparent</item>
+        <item name="actionBarStyle">@style/MyActionBarTransparent</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyActionBar">
+        <item name="android:background">@color/primary_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="android:titleTextStyle">@style/ButTheme.TitleTextStyle</item>
+    </style>
+
+
+    <color name="transparent_black">#80000000</color>
+
+    <style name="MyActionBarTransparent" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/reverse_gradient</item>
+        <item name="background">@drawable/reverse_gradient</item>
+    </style>
+
+    <style name="ButTheme.TitleTextStyle" >
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButTheme.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar"></style>
+
+    <color name="third_color">#B71C1C</color>
+
+
+</resources>

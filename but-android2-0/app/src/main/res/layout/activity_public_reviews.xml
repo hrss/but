@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.but_app.but.Activity.PublicReviewsActivity">
+
+    <include
+        layout="@layout/tool_bar"
+        android:id="@+id/toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/cards_list"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

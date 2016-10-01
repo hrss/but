@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.but_app.but.Activity.FriendViewActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:fillViewport="true"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/scrollView">-->
+
+        <RelativeLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view2">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/photo"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:id="@+id/image_layout_review"
+                        android:background="@drawable/profpic">
+
+                        <include layout="@layout/fake_action_bar"/>
+
+
+                        <!-- <ImageView
+                             android:id="@+id/profilePictureMain"
+                             android:layout_width="200dp"
+                             android:layout_height="200dp"
+                             android:layout_gravity="center"
+                             android:padding="5sp"
+                             android:src="@drawable/profpic"
+                             android:layout_alignParentTop="true"
+                             android:layout_centerHorizontal="true" /> -->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/gradient"
+                            android:layout_height="100dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true">
+                            <TextView
+                                android:id="@+id/reviewProfileName"
+                                android:layout_width="match_parent"
+                                android:gravity="center_horizontal"
+                                android:layout_height="30dp"
+                                android:textSize="26sp"
+                                android:layout_marginTop="15dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/white"
+                                android:alpha="0.7"
+                                android:id="@+id/descripton"
+                                android:layout_below="@+id/reviewProfileName"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="79dp">
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textSize="18sp"-->
+                            <!--android:id="@+id/friends_using"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:text="Friends using but:"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:layout_alignParentLeft="true"-->
+                            <!--android:layout_alignParentStart="true" />-->
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fab_profile"
+                    android:layout_width="wrap_content"
+                    android:onClick="makeReview"
+                    android:layout_height="wrap_content"
+                    app:layout_anchor="@id/image_layout_review"
+                    app:layout_anchorGravity="bottom|right|end"
+                    app:fab_colorNormal="@color/secondary_color"
+                    app:fab_colorPressed="@color/secondary_color"
+                    android:src="@drawable/ic_add_white_24dp" />
+
+            </android.support.design.widget.CoordinatorLayout>
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:id="@+id/public_reviews_text"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:textSize="22sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="stri"/>-->
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/button_public_reviews"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/secondary_color"
+                android:onClick="makeReview"
+                android:textColor="@color/white"
+                android:layout_height="50dp"
+                android:text="@string/do_review"
+                android:layout_below="@+id/view2"
+                android:layout_centerHorizontal="true" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:text="Careful, they might know you reviewed them!"-->
+                <!--android:layout_below="@+id/view2"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+        </RelativeLayout>
+
+    <!--</ScrollView>-->
+
+
+</RelativeLayout>

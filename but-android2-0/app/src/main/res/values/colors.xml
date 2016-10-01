@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent_white">#afffffff</color>
+    <color name="secondary_color">#1565c0</color>
+    <color name="transparent_secondary_color">#ef1565c0</color>
+    <color name="transparent_primary_color">#ef4CAF50</color>
+    <color name="black">#000000</color>
+    <color name="primary_color_dark">#2E7D32</color>
+    <color name="primary_color">#4CAF50</color>
+    <color name="primary_color_light">#C8E6C9</color>
+    <color name="accent_color">#03A9F4</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+</resources>

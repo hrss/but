@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="but_server_host_homolog" translatable="false">localhost:8080</string>
+    <string name="but_server_api_key" translatable="false">05aa6a2ea359685e7c43584f4a1e1deauGbggOa32ng</string>
+
+    <string name="fb_app_id" translatable="false">1491614031098851</string>
+
+</resources>

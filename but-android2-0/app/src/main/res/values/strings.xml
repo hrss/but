@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">But</string>
+    <string name="create_review">Review</string>
+    <string name="action_about">About</string>
+    <string name="action_logout" translatable="false">Logout</string>
+    <string name="add_quotes">ADD/DELETE</string>
+    <string name="but">But</string>
+    <string name="but_name">But</string>
+    <string name="name">Name</string>
+    <string name="facebook_share">Share on Facebook</string>
+    <string name="facebook_login">Login with Facebook</string>
+    <string name="title_activity_splash">BUT</string>
+    <string name="action_send">SEND</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_profile" translatable="false">Profile</string>
+    <string name="title_activity_login">Login</string>
+    <string name="send_both_quotes">Send at least one good quote and one bad quote.</string>
+    <string name="title_activity_first_launch">But</string>
+    <string name="title_activity_main">but</string>
+    <string name="title_activity_main_activity2" translatable="false">MainActivity2</string>
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+    <string name="face_id" translatable="false">1491614031098851</string>
+    <string name="new_review">New Review</string>
+    <string name="do_review">New Review</string>
+    <string name="see_reviews">See Reviews</string>
+    <string name="see_reviews_text" translatable="false">%1$s has %2$d public reviews.</string>
+    <string name="no_public_reviews" translatable="false">%1$s doesn\'t have any public reviews yet. Review them!</string>
+    <string name="send_review_dialog">Send review?</string>
+    <string name="send">SEND</string>
+    <string name="cancel">CANCEL</string>
+    <string name="no_top_quotes">You have reviews yet :(</string>
+    <string name="no_reviews">You have no reviews yet. Review someone :)</string>
+
+    <string name="title_activity_friends_list">Friends</string>
+    <string name="title_activity_quotes">Quotes</string>
+    <string name="title_activity_review_edit">New Review</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_friend_profile" translatable="false">FriendProfileActivity</string>
+    <string name="title_activity_profile_edit">Edit Profile</string>
+    <string name="title_activity_friend_view" translatable="false">FriendViewActivity</string>
+    <string name="title_activity_public_reviews">Public Reviews</string>
+    <string name="profile_pic" translatable="false">Profile Picture</string>
+    <string name="add_description">Click here to add a description</string>
+    <string name="description_title">Description</string>
+    <string name="new_descrption">Add a new description</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="hernando" translatable="false">Hernando de Sá Silva</string>
+
+    <string name="lucas" translatable="false">Lucas do Amaral Alves</string>
+
+    <string name="developed_by">Developed by:</string>
+
+    <string name="version" translatable="false">But 2.0</string>
+    <string name="review_sent">Review sent.</string>
+    <string name="leila" translatable="false">Leila Kantor Sauaia</string>
+    <string name="art">Art by:</string>
+    <string name="action_app_invites">Invite friends</string>
+
+
+</resources>
